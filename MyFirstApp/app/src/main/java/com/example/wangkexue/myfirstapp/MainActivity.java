@@ -64,14 +64,6 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void button1_click(View view) {
-        buttonClickHandler(view);
-    }
-
-    public void button2_click(View view) {
-        buttonClickHandler(view);
-    }
-
     private void buttonClickHandler(View view) {
         Button b = (Button) view;
         int num = Integer.parseInt(b.getText().toString());
